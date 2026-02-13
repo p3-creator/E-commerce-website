@@ -8,10 +8,10 @@ import './index.css';
 function Footer() {
   return (
     <div>
-       <footer className="pt-1">
-        <div className="container-fluid bg1">
+       <footer className="pt-1 bgcolor1 font">
+        <div className="container-fluid">
           <div className="row">
-            <div className="col-lg-3 py-1 text-white px-5">
+            <div className="col-lg-3 py-1 px-5">
               <ul className="list-unstyled">
                 <li><h5 className="pt-5">DOWNLOAD OUR APP</h5></li>
                 <li><img className="img2 pb-5 ms-4" src="https://digitalsahuji.com/public/assets/front-end/png/google_app.png" alt="" /></li>
@@ -19,7 +19,7 @@ function Footer() {
                 <li className="px-4"><i className="bi bi-telephone-fill" /> 9841825938</li>
               </ul>
             </div>
-            <div className="col-lg-2 py-5 text-white">
+            <div className="col-lg-2 py-5">
               <ul className="list-unstyled space">
                 <h5 className="pb-3">SPECIAL</h5>
                 <li>Featured Products</li>
@@ -30,7 +30,7 @@ function Footer() {
                 <li className="pt-5"><i className="bi bi-envelope-fill" /> Eshop91@gmail.com</li>
               </ul>
             </div>
-            <div className="col-lg-3 py-5 text-white">
+            <div className="col-lg-3 py-5">
               <ul className="list-unstyled space">
                 <h5 className="pb-3">ACCOUNT &amp; SHIPPING INFO</h5>
                 <li>Profile Info</li>
@@ -43,7 +43,7 @@ function Footer() {
                 <li><i className="bi bi-person" /> Support Ticket</li>
               </ul>
             </div>
-            <div className="col-lg-4 py-5 text-white px-5">
+            <div className="col-lg-4 py-5 px-5">
               <ul className="list-unstyled">
                 <h5 className="pb-3">NEWS LETTER</h5>
                 <li className="pb-2">Subscribe to our new channel to get latest updates</li>
@@ -63,7 +63,7 @@ function Footer() {
         <div className="pb-4 bg1">
           <div className="container-fluid">
             <div className="row">
-              <div className="col-lg-5 text-white ps-5">
+              <div className="col-lg-5 ps-5">
                 <h6>CopyRight E-shop@ 2024</h6>
               </div>
               <div className="col-lg-3 px-2 gp d-flex">
@@ -71,7 +71,7 @@ function Footer() {
                 <div><button className="sm"><a href="https://www.pinterest.com/" alt=""><i className="bi bi-instagram ig" /></a></button></div>
                 <div><button className="sm"><a href="https://www.facebook.com/" alt=""><i className="bi bi-facebook fb" /></a></button></div>
               </div>
-              <div className="col-lg-3 text-white ps-5 d-flex px-3 gp2">
+              <div className="col-lg-3 ps-5 d-flex px-3 gp2">
                 <h6>Terms &amp; Conditions</h6>
                 <h6>Privacy Policy</h6>
               </div>

@@ -63,7 +63,7 @@ const AuthModal = () => {
 
   return (
     <>
-      <button className="btn-color ms-5 bg-primary-subtle hove" onClick={toggleModal}>
+      <button className="btn-color text-white ms-5 bgcolor2 hove" onClick={toggleModal}>
         Login
       </button>
 

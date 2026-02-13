@@ -174,8 +174,7 @@ function Body() {
             <div className="box position-relative shadow">
               <img
                 className="w-100 pt-3 hv pb-5"
-                src="https://digitalsahuji.com/storage/app/public/product/thumbnail/2024-03-31-66093cbd38ee0.png"
-                alt="" />
+                src={`${process.env.PUBLIC_URL}/images/3mp-wifi-camera.jpg`}  alt="3mp-wifi-camera" />
               <div className="box-c position-absolute text-center p-2">
                 <span className="px-1 fw-semibold">3MP Wi-Fi PT Camera</span>
                 <span className="orange">
@@ -192,7 +191,7 @@ function Body() {
 
           <div className="col-lg-2 overflow-hidden">
             <div className="box position-relative shadow">
-              <img className="w-100 hv pt-3 pb-5" src="https://digitalsahuji.com/storage/app/public/product/thumbnail/2023-08-23-64e5b331786d4.png" alt="" />
+              <img className="w-100 hv pt-3 pb-5" src={`${process.env.PUBLIC_URL}/images/3mp-wifi-camera.jpg`} alt="" />
               <div className="box-c position-absolute text-center p-2">
                 <span className="px-2 fw-semibold">Imou Cue 2 Indoor....</span>
                 <span className="orange"><i className="bi bi-star" /> <i className="bi bi-star" /> <i className="bi bi-star" /> <i className="bi bi-star" /> </span>
