@@ -204,7 +204,7 @@ function Home() {
         </div>
       </section>
 
-      <header className="bg-white py-2">
+      <header className="bg-white">
         <div className="container">
           <div className="row">
             <div className="col-lg-2 me-2">

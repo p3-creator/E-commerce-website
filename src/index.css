@@ -33,7 +33,7 @@ code {
 }
 
 
-.carousel-inner img{width:1280px; border-radius: 0 100px 0 100px;}
+.carousel-inner img{width:1280px; border-radius: 20px;}
 .wh{width:1280px; height:500px; position: relative; left:-13px;}
 .wh1{width:668px;position: relative; left:-13px; height:320px; object-fit: contain;}
 .wh2{width:600px;position: relative; height:320px; object-fit: contain;}
@@ -51,7 +51,7 @@ code {
 .orange{color:rgb(251, 127, 32); font-size: 12px; font-weight: 600; font-family: Arial, sans-serif;
 font-style: normal;}
 
-.logo{ height:90px; width:110px;}
+.logo{ height:80px; width:90px;}
 
 .pad-y{padding-top: 60px; padding-bottom: 20px;}
 
@@ -300,16 +300,18 @@ footer ul .pb{padding-bottom: 97px;}
     object-fit: contain;
     margin-bottom: 10px;
    }
+
+  
    
   /*background color*/
    .bgcolor1{
-    background-color: rgb(228, 234, 255);
+    background-color: rgb(241, 243, 255);
    }
    .bgcolor2{
     background-color: rgb(28, 160, 197);
    }
    .grey{
-    background:rgba(213, 217, 220, 0.185)
+    background:rgba(236, 247, 255, 0.185)
   }
 
    

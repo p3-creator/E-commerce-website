@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route }
+import { BrowserRouter, Router, Routes, Route }
 from "react-router-dom";
 
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
@@ -23,15 +23,16 @@ import "bootstrap/dist/css/bootstrap.min.css";
 function App() {
   return (
     <div>
-      <Router>
+      <BrowserRouter basename="/E-commerce-website">
        <Header/>
        <Routes>
-        <Route path='/Home' element={<Home />} />
-        <Route path='/About' element={<About />} />
-        <Route path='/Contact' element={<Contact />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/Home" element={<Home />} />
+        <Route path="/About" element={<About />} />
+        <Route path="/Contact" element={<Contact />} />
        </Routes>
        <Footer/>
-      </Router>
+      </BrowserRouter>
     </div>
   );
 }

@@ -23,20 +23,21 @@ function Home() {
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
               </div>
               <div className="carousel-inner">
-                <div className="carousel-item active">
-                  <img src={`${process.env.PUBLIC_URL}/images/banner2.jpg`} className="w-100 banner" alt="..." />
-                </div>
 
-                 <div className="carousel-item">
+                <div className="carousel-item active">
                   <img src="https://cdn.buymode.shop/images/1P5ZK52HXM3MMN98Z-1731910249619.jpeg" className="w-100 banner" alt="..." />
                 </div>
 
                 <div className="carousel-item">
-                  <img src={`${process.env.PUBLIC_URL}/images/banner1.png`} className="w-100 banner" alt="..." />
+                  <img src={`${process.env.PUBLIC_URL}/images/banner2.jpg`} className="w-100 banner" alt="..." />
                 </div>
 
                 <div className="carousel-item">
-                  <img src="https://t4.ftcdn.net/jpg/11/93/78/63/240_F_1193786310_73WsxPWSwH0a0BAukdkeUK7YueCi4o7B.jpg" className="w-100 banner" alt="..." />
+                  <img src="https://i.pinimg.com/1200x/ef/80/83/ef8083bfe79088dc00bd8eca9c821cd5.jpg" className="w-100 banner" alt="..." />
+                </div>
+
+                <div className="carousel-item">
+                  <img src="https://hukut.com/_next/image?url=https%3A%2F%2Fcdn.hukut.com%2Ffall-back-banner-for-website-web%2520view.png1733735526759&w=1920&q=75" className="w-100 banner" alt="..." />
                 </div>
                 
 
@@ -1276,11 +1277,11 @@ function Home() {
         </div></section>
 
 
-      <section className="mt-5">
-        <div className="container-fluid grey py-4">
+      <section className="mt-4 foot">
+        <div className="container grey py-4">
           <div className="row text-center py-4">
             <div className="col-lg-3">
-              <img className="pb-3 prod1 ps-4" src="https://www.nicepng.com/png/full/572-5725423_delivery-truck-logo-clipart-car-van-delivery-car.png" alt="" />
+              <img className="pb-3 prod1 ps-2" src="https://www.nicepng.com/png/full/572-5725423_delivery-truck-logo-clipart-car-van-delivery-car.png" alt="" />
               <h6>Fast Delivery all accross the<br /> country</h6>
             </div>
             <div className="col-lg-3">
@@ -1301,7 +1302,7 @@ function Home() {
 
 
       <section className="mb-1">
-        <div className="container-fluid grey">
+        <div className="container grey">
           <div className="row text-center py-3 pb-5">
             <div className="col-lg-3">
               <img className="pb-2 prod1" src= {`${process.env.PUBLIC_URL}/images/logo2.jpg`} alt="" />
