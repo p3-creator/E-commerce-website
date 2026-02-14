@@ -208,7 +208,7 @@ function Home() {
         <div className="container">
           <div className="row">
             <div className="col-lg-2 me-2">
-              <a href="/Home"><img className="logo" src= {`${process.env.PUBLIC_URL}/images/logo2.jpg`} alt="logo" /></a>
+              <Link to="/Home"><img className="logo" src= {`${process.env.PUBLIC_URL}/images/logo2.jpg`} alt="logo" /></Link>
             </div>
 
             <div className="col-lg-5 mt-4 ms-5">
