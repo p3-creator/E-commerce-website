@@ -1,3 +1,5 @@
+Live Demo: https://p3-creator.github.io/E-commerce-website/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
