@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter, Router, Routes, Route }
-from "react-router-dom";
+  from "react-router-dom";
 
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import logo from './logo.svg';
@@ -20,20 +20,24 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 
 
+import { CartProvider } from './CartContext';
+
 function App() {
   return (
-    <div>
-      <BrowserRouter basename="/E-commerce-website">
-       <Header/>
-       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/Home" element={<Home />} />
-        <Route path="/About" element={<About />} />
-        <Route path="/Contact" element={<Contact />} />
-       </Routes>
-       <Footer/>
-      </BrowserRouter>
-    </div>
+    <CartProvider>
+      <div>
+        <BrowserRouter basename="/E-commerce-website">
+          <Header />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/Home" element={<Home />} />
+            <Route path="/About" element={<About />} />
+            <Route path="/Contact" element={<Contact />} />
+          </Routes>
+          <Footer />
+        </BrowserRouter>
+      </div>
+    </CartProvider>
   );
 }
 
