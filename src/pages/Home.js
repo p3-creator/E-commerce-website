@@ -127,7 +127,7 @@ function Home() {
                 alt="" />
               <div className="box-c position-absolute text-center p-1">
                 <span className="fw-semibold">3MP Wi-Fi PT Camera</span>
-                <p className="text-primary fw-semibold">Rs 3,999</p>
+                <p className="text-primary fw-semibold">Rs 3,790</p>
                 <p className="orange"><i className='orange'>⭐⭐⭐⭐</i> <i className="bi bi-star"></i></p>
                 <a href="" className="btn btn-primary btn-sm"><i className="bi bi-eye"></i> Quick view</a>
               </div>
@@ -140,7 +140,7 @@ function Home() {
               <img className="w-100 hv pt-3 pb-5 prod" src={`${process.env.PUBLIC_URL}/images/2mp-wifi-camera.jfif`} alt="" />
               <div className="box-c position-absolute text-center p-1">
                 <span className="fw-semibold">Imou Cue 2 Indoor....</span>
-                <p className="text-primary fw-semibold">Rs 4,975</p>
+                <p className="text-primary fw-semibold">Rs 4,675</p>
                 <p className="orange"><i className='orange'>⭐⭐⭐⭐</i> <i className="bi bi-star"></i></p>
                 <a href className="btn btn-primary btn-sm"><i className="bi bi-eye" /> Quick view</a>
               </div>
